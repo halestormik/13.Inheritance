@@ -52,7 +52,7 @@ public class TodosTest {
         Assertions.assertArrayEquals(expected, actual);
     }
 
-   @Test
+    @Test
     public void shouldSearchEpicAmongAllTasks() { // Тест на успешный поиск Epic среди всех задач
         SimpleTask simpleTask = new SimpleTask(1, "Выполнить дз");
 
